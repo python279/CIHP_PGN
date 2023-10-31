@@ -5,7 +5,7 @@ import base64
 import json
 
 # 读取待推理的图像文件
-image_path = './datasets/CIHP/images/0012008.jpg'
+image_path = './datasets/CIHP/images/00006_00.jpg'
 with open(image_path, 'rb') as f:
     image_data = f.read()
 
